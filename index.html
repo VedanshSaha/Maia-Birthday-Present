@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Maia 💗</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+  <link rel="icon" href="Screenshot 2025-08-01 171026.png" style="border-radius: 25px;"/>
+</head>
+<body>
+
+    <!-- Start Experience Overlay -->
+<div id="start-overlay" class="start-overlay">
+  <div class="start-box">
+    <p style="font-size: xx-large;">Welcome, Maia 💜</p>
+    <button onclick="startExperience()">🎵 Start Experience</button>
+  </div>
+</div>
+
+    <!-- Music Player -->
+<audio id="bg-music" src="SpotiDownloader.com - Nebun De Alb - Emeric Imre.mp3" loop></audio>
+<button id="music-toggle" onclick="toggleMusic()" title="Toggle Music">🎶</button>
+
+
+  <div id="tsparticles"></div>
+  <div id="floating-hearts"></div>
+
+  <section class="hero text-center py-5">
+    <h1 class="hero-title rellax" data-rellax-speed="-2">
+      <span id="typed"></span>
+    </h1>
+  </section>
+
+<section id="poems" class="poem-section">
+  <h2 class="section-heading" style="text-align: center;margin-top: 30px;">Poems for You</h2>
+  <div class="swiper-container mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide" onclick="openPopup('poem1')">
+        <p class="poem-texts">Wish You Were Here 😞</p>
+</p>
+      </div>
+      <div class="swiper-slide" onclick="openPopup('poem2')">
+        <p class="poem-texts">When we talk 💘</p>
+      </div>
+      <div class="swiper-slide" onclick="openPopup('poem3')">
+        <p class="poem-texts">Three Weeks in 🎀</p>
+      </div>
+    
+    <div class="swiper-slide" onclick="openPopup('poem4')">
+        <p class="poem-texts">Hey Maia, Happy Birthday 🎊</p>
+    </div>
+    </div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+</section>
+
+  
+
+
+  <section class="sweet-message text-center py-5" style="background-color: rgb(214, 129, 157);">
+    <h2 class="section-heading" data-aos="zoom-in">Click for my Messages (keep clicking)</h2>
+    <button class="btn btn-pink mt-3" onclick="showRandomMessage()" style="font-family: cursive; color: blueviolet;">Click here 💗</button>
+    <p id="messageBox" class="mt-3"></p>
+  </section>
+
+ 
+ <section class="memories py-5 bg-light" style="background-color: bisque; ">
+  <div class="container" >
+    <h2 class="section-heading text-center mb-4" data-aos="fade-right">Our Memories</h2>
+    <div class="row g-4">
+      <div class="col-md-4" data-aos="zoom-in">
+        <div class="card memory-card" onclick="openPopup('memory1')">
+          <div class="image-placeholder" style="width: fit-content; height: fit-content;"><img src="Screenshot 2025-08-01 180613.png"></div>
+          <div class="card-body">
+            <p class="caption" style="color: palevioletred; font-family: cursive; font-size: large; text-align: center;">First On-Cam Kiss 😉</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4" style="width: min-content;" data-aos="zoom-in" data-aos-delay="100">
+        <div class="card memory-card" onclick="openPopup('memory2')">
+          <div class="image-placeholder" style="width: fill; height: fit-content;"><img src="Screenshot 2025-08-01 180741.png" alt=""></div>
+          <div class="card-body">
+            <p class="caption" style="color: palevioletred; font-family: cursive; font-size: large; text-align: center;">The museum</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200" style="width: min-content;">
+        <div class="card memory-card" onclick="openPopup('memory3')">
+          <div class="image-placeholder" style="width: fill; height: fit-content;"><img src="Screenshot 2025-08-01 180951.png" alt=""></div>
+          <div class="card-body">
+            <p class="caption" style="color: palevioletred; font-family: cursive; font-size: large; text-align: center;">Parting time</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="letters-section py-5 text-center">
+  <h2 class="section-heading mb-5" data-aos="fade-up">Letters to Maia</h2>
+  <div class="container letter-grid">
+    <div class="letter-card" data-aos="flip-left" onclick="openPopup('letter1')">
+      <div class="front">Messy Letter 💌</div>
+    </div>
+    <div class="letter-card" data-aos="flip-right" onclick="openPopup('letter2')">
+      <div class="front">Cheesy Letter 💌</div>
+    </div>
+  </div>
+</section>
+
+
+
+  <footer class="footer text-center py-4">
+    <p>Happy Birthday Maia (Cutest Vampire) 🎂💗</p>
+    <p> Wish I can be there with you in every other birthday (from ur 20th birthday)</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/rellax/rellax.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@3.1.0/tsparticles.bundle.min.js"></script>
+  <script src="script.js"></script>
+
+  <!-- Popup Modal -->
+<div id="popup" class="popup-overlay" onclick="closePopup()">
+  <div class="popup-content" onclick="event.stopPropagation()">
+    <span class="popup-close" onclick="closePopup()">&times;</span>
+    <div id="popupBody" class="popup-body">
+      <!-- Content will load here -->
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+
