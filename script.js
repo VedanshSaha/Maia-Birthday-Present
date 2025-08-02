@@ -107,7 +107,7 @@ Like they might somehow bring you back.<br><br>
 
 It's strange how fast I got used to you.<br>
 The way you spoke,<br>
-The way you looked when you weren’t saying anything.<br><br>
+The way you looked when you weren’t saying anything and just smiling.<br><br>
 
 We didn’t say too much,<br>
 But everything felt clear.<br>
@@ -117,8 +117,7 @@ And I don’t really know what to do with that.<br><br>
 
 I don’t want to make this bigger than it is.<br>
 But I miss you.<br>
-In a quiet, kind of everyday way.<br>
-The kind that stays.<br><br>
+Anyday, however, whenever.<br><br>
 
 I don’t need forever.<br>
 I just wish you were here.<br>
@@ -129,7 +128,7 @@ poem2:`<h3>When we talk</h3>
 I don’t know how to explain it<br>
 But talking to you feels different.<br>
 Even when it’s just texts,<br>
-Even when it’s 2 AM and we both should be asleep.<br><br>
+Even when it’s 12 AM and I should be asleep (My 12AM).<br><br>
 
 I catch myself smiling at my screen,<br>
 Or waiting for that little typing bubble to come back.<br>
@@ -149,7 +148,7 @@ I don’t know what this is exactly<br>
 But I like it.<br>
 I like you.<br>
 And I’m glad we’re still talking.`,
-poem3:`<h3><Three Weeks in </h3>
+poem3:`<h3>Three Weeks in </h3>
 It hasn’t been long<br>
 But it’s been enough<br>
 To make me notice<br>
@@ -183,7 +182,7 @@ poem4:`<h3>Hey Maia, Happy Birthday</h3>
 Hey Maia<br>
 Happy birthday<br>
 Eighteen already<br>
-That’s kind of crazy<br><br>
+That’s kind of crazy(I'm a minor)<br><br>
 
 Thanks for inviting me<br>
 I really wish I could’ve been there<br>
@@ -191,7 +190,7 @@ Would’ve been cool to see you<br>
 Not just through a screen for once<br><br>
 
 I can picture it<br>
-You looking great<br>
+You looking great like a princess<br>
 People around<br>
 Music playing<br>
 You probably pretending you don’t like the attention<br>
@@ -200,7 +199,7 @@ But secretly loving it a little<br><br>
 I hope today’s been fun<br>
 The kind of fun that feels easy<br>
 Nothing forced<br>
-Just good vibes and good people<br><br>
+Just good vibes and good people (and me in your thoughts hopefully)<br><br>
 
 Even though I couldn’t be there<br>
 I’m glad I get to say this at all<br>
@@ -363,3 +362,4 @@ document.addEventListener('mousemove', function(e) {
     heart.remove();
   }, 1000);
 });
+
